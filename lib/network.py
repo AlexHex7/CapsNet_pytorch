@@ -4,7 +4,7 @@ from lib.caps_fc import CapsFC
 from torch import nn
 import config as cfg
 from lib.cuda_utils import variable
-
+import torch
 
 class CapsNet(nn.Module):
     def __init__(self):
